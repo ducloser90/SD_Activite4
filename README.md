@@ -34,11 +34,4 @@ Après avoir mis en œuvre l'utilisation de l'objet Observable et de la méthode
 ## Progression Actuelle
 À ce stade, l'intégration de la base de données via JSON Server est opérationnelle. Nous sommes en mesure de récupérer, d'ajouter, de modifier et de supprimer des produits dans notre application Angular en utilisant les points de terminaison fournis par JSON Server.
 
-## Prochaines Étapes
-1. Finaliser les fonctionnalités restantes de l'application, telles que la recherche de produits et la gestion des stocks.
-2. Effectuer des tests pour assurer la stabilité et la fiabilité de l'application.
-3. Améliorer l'interface utilisateur pour une meilleure expérience utilisateur.
-4. Déployer l'application sur un serveur en ligne pour une utilisation publique.
 
-## Conclusion
-L'intégration de la base de données via JSON Server facilite le développement de notre application de gestion de produits Angular en fournissant une API RESTful avec une persistance de données basée sur un fichier JSON. Cette approche nous permet de développer et de tester notre application sans avoir besoin d'une base de données réelle, accélérant ainsi le processus de développement.

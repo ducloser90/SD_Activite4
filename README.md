@@ -30,6 +30,20 @@ Après avoir mis en œuvre l'utilisation de l'objet Observable et de la méthode
 
 ![image](https://github.com/ducloser90/SD_Activite4/assets/167253342/2a484c2a-a40e-4b93-98a4-56ca7ab92eec)
 
+## Intégration de la Notion de Service
+
+Pour améliorer la structure et la maintenabilité de notre application, nous avons intégré la notion de service en utilisant Angular. En encapsulant la logique des requêtes HTTP au sein d'un service dédié, `ProductService`, nous avons centralisé les opérations de récupération et de mise à jour des produits. Ce service est injecté dans notre composant `ProductsComponent`, permettant ainsi de séparer les préoccupations et de faciliter les tests et la réutilisation du code. 
+
+![image](https://github.com/ducloser90/SD_Activite4/assets/167253342/50434131-f96b-4ae8-92b5-8b88965a2ec2)
+
+## Intégration du Modèle
+
+L'utilisation de **ReactiveFormsModule** dans notre application Angular est cruciale pour créer et gérer des formulaires de manière réactive et robuste. En intégrant **ReactiveFormsModule** dans notre `AppModule`, nous avons accès à un ensemble puissant de fonctionnalités de gestion des formulaires, telles que la liaison bidirectionnelle des données entre les champs de formulaire et le modèle, ainsi que la validation des données utilisateur en temps réel. Cette approche permet une synchronisation fluide des données entre l'interface utilisateur et notre application, tout en offrant une gestion avancée des états et des erreurs de formulaire. En définissant des validations telles que les champs requis, les longueurs minimales ou maximales et les expressions régulières, nous assurons une saisie de données fiable et conforme aux exigences métier. Ainsi, **ReactiveFormsModule** joue un rôle crucial dans l'amélioration de la convivialité et de la fiabilité de notre application Angular.
+
+![image](https://github.com/ducloser90/SD_Activite4/assets/167253342/421c9a80-ab83-4ec6-8e5a-e89197259cfd)
+
+
+
 
 ## Progression Actuelle
 À ce stade, l'intégration de la base de données via JSON Server est opérationnelle. Nous sommes en mesure de récupérer, d'ajouter, de modifier et de supprimer des produits dans notre application Angular en utilisant les points de terminaison fournis par JSON Server.

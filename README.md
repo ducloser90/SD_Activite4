@@ -42,6 +42,9 @@ L'utilisation de **ReactiveFormsModule** dans notre application Angular est cruc
 
 ![image](https://github.com/ducloser90/SD_Activite4/assets/167253342/421c9a80-ab83-4ec6-8e5a-e89197259cfd)
 
+![image](https://github.com/ducloser90/SD_Activite4/assets/167253342/22ccdab4-b055-4893-b526-eb8aa4e9f3f6)
+
+
 
 
 

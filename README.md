@@ -44,6 +44,12 @@ L'utilisation de **ReactiveFormsModule** dans notre application Angular est cruc
 
 ![image](https://github.com/ducloser90/SD_Activite4/assets/167253342/22ccdab4-b055-4893-b526-eb8aa4e9f3f6)
 
+En ce qui concerne la gestion des données, nous avons également implémenté la pagination avec JSON Server pour gérer efficacement de grandes listes de produits. JSON Server prend en charge la pagination via des paramètres de requête tels que `_page` et `_per_page`. Par exemple, une requête à `http://localhost:8089/products?_page=1&_per_page=3` récupère les 3 premiers produits de la première page. Cette fonctionnalité de pagination permet de diviser les résultats en pages plus petites, améliorant ainsi la performance et l'expérience utilisateur lors de la navigation dans de grandes listes de données.
+
+
+![image](https://github.com/ducloser90/SD_Activite4/assets/167253342/49ba56cf-8b4f-48de-958d-f296afe55cb6)
+
+
 
 
 

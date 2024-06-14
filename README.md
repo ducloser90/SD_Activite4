@@ -51,6 +51,14 @@ En ce qui concerne la gestion des données, nous avons également implémenté l
 
 ![image](https://github.com/ducloser90/SD_Activite4/assets/167253342/49ba56cf-8b4f-48de-958d-f296afe55cb6)
 
+## Editer un produit
+
+![image](https://github.com/ducloser90/SD_Activite4/assets/167253342/c750ecc9-751f-4c01-a666-47315513f601)
+
+![image](https://github.com/ducloser90/SD_Activite4/assets/167253342/fd93bfa3-8df0-451a-8e5c-d151ac4d70bf)
+
+
+
 
 
 

@@ -57,14 +57,25 @@ En ce qui concerne la gestion des données, nous avons également implémenté l
 
 ![image](https://github.com/ducloser90/SD_Activite4/assets/167253342/fd93bfa3-8df0-451a-8e5c-d151ac4d70bf)
 
+## L'ajout de l'option `Loading Spinner`
 
+![Capture d'écran 2024-06-15 112930](https://github.com/ducloser90/SD_Activite4/assets/167253342/bd851550-0a05-478f-a178-ab4868f70fab)
 
+## Authentication
 
+Nous avons créé une page de login qui permet aux utilisateurs de saisir leurs informations d'identification.
 
+![image](https://github.com/ducloser90/SD_Activite4/assets/167253342/e7ff3516-9fa7-46d6-a66e-1bdbb83510b3)
 
+Nous avons renforcé la sécurité en implémentant des guards, ainsi qu'une authentification basée sur JWT (JSON Web Token) pour gérer l'autorisation des utilisateurs. L'authentification par JWT utilise des tokens sécurisés pour identifier les utilisateurs authentifiés après une connexion réussie. Nous avons intégré un service d'authentification qui gère le processus de connexion, stocke les tokens JWT et assure leur persistance entre les sessions. Les guards sont utilisés pour protéger les routes spécifiques de l'application. Par exemple, en ajoutant `canActivate: [AuthenticationGuard]` dans les définitions de routes, nous nous assurons que seuls les utilisateurs authentifiés peuvent accéder à certaines parties de l'application. 
 
+![image](https://github.com/ducloser90/SD_Activite4/assets/167253342/f2a36513-b33b-4fcc-af2d-0af79261463a)
 
-## Progression Actuelle
-À ce stade, l'intégration de la base de données via JSON Server est opérationnelle. Nous sommes en mesure de récupérer, d'ajouter, de modifier et de supprimer des produits dans notre application Angular en utilisant les points de terminaison fournis par JSON Server.
+Ces mesures de sécurité garantissent que seules les personnes autorisées peuvent interagir avec les fonctionnalités sensibles de l'application, renforçant ainsi la protection et la confidentialité des données.
+
+Par exemple, un utilisateur `user1` qui n'est pas autorisé ne pourra pas éditer ou supprimer un produit.
+
+![Capture d'écran 2024-06-15 165724](https://github.com/ducloser90/SD_Activite4/assets/167253342/373a8596-b93f-4f48-bf62-0c8748c81596)
+
 
 

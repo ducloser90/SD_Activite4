@@ -1,0 +1,49 @@
+{
+  "products": [
+    {
+      "id": "10",
+      "name": "Ipad",
+      "price": 10000,
+      "checked": false
+    },
+    {
+      "id": "14",
+      "name": "Smartwatch",
+      "price": "2000",
+      "checked": true
+    },
+    {
+      "id": "aa51",
+      "name": "Earpods",
+      "price": "350",
+      "checked": true
+    },
+    {
+      "id": "de1d",
+      "name": "IStudio",
+      "price": "4500",
+      "checked": false
+    },
+    {
+      "id": "9500",
+      "name": "Keybord",
+      "price": "100",
+      "checked": false
+    }
+  ],
+  "users": [
+    {
+      "id": "user1",
+      "password": "MTIzNA==",
+      "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ1c2VyMSIsIm5hbWUiOiJVc2VyMSIsImVtYWlsIjoidXNlcjFAZ21haWwuY29tIiwiaWF0IjoxNTE2MjM5MDIyLCJyb2xlcyI6WyJVU0VSIl19.nAT7_av3zKslUDhFqOeK2hRxuPX0UcYQIQUngwKTVmo"},
+      {
+        "id": "user2",
+        "password": "MTIzNA==",
+        "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ1c2VyMiIsIm5hbWUiOiJVc2VyMSIsImVtYWlsIjoidXNlcjFAZ21haWwuY29tIiwiaWF0IjoxNTE2MjM5MDIyLCJyb2xlcyI6WyJVU0VSIl19.iD12e7i7G2ka2YJRbGOybfYmse_hmW4rGgloEndmn2o"},
+    {
+      "id": "admin",
+      "password": "MTIzNA==",
+      "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJhZG1pbiIsIm5hbWUiOiJVc2VyMSIsImVtYWlsIjoidXNlcjFAZ21haWwuY29tIiwiaWF0IjoxNTE2MjM5MDIyLCJyb2xlcyI6WyJVU0VSIiwiQURNSU4iXX0.WuEwj18V8Ko_6mgfAMsQ_xFzJT5KXe-LhR8JpzJT_LM"
+    }
+  ]
+}

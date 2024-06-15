@@ -1,0 +1,11 @@
+<div class="p-3" *ngIf="appState.productState.status === 'ERROR'">
+    <div class="alert alert-danger">
+      <ng-container *ngIf="isErrorMessageObject(appState.productState.errorMessage); else stringError">
+        {{ appState.productState.errorMessage.message }}
+      </ng-container>
+      <ng-template #stringError>
+        {{ appState.productState.errorMessage }}
+      </ng-template>
+    </div>
+  </div>
+  
